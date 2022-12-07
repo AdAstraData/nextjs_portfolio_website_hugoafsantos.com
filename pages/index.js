@@ -1,5 +1,8 @@
+import { NextScript } from 'next/document';
 import Head from 'next/head'
 import styles from '../styles/Home.module.css';
+
+// import Plotly from 'plotly.js';
 
 export default function Home() {
   return (
@@ -8,6 +11,8 @@ export default function Home() {
         <title>NextJS Portfolio Website - Hugo A. F. dos Santos - Data Scientist</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
       <main>
         <h1 className={styles.title}>
