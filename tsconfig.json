@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "noImplicitAny": true,
+    "target": "ES5",
+    "module": "esnext",
     "lib": [
       "dom",
       "dom.iterable",
@@ -13,7 +15,6 @@
     "noEmit": true,
     "incremental": true,
     "esModuleInterop": true,
-    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
